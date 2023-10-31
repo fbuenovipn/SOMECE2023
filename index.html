@@ -6,12 +6,33 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <header class="header">
+        <!-- Logo con link a la página principal -->
+        <a href="/" class="logo">
+          <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgUW6ce5PtPvfurA8MraZ2p0clGo76CtN1C-aAAoBv33cSdZ6yMh3y8ySsW6mJy7-Djvy_5ikfbXD-FuC3GsPWlbPLaRMRtnvj_goEOVp2JlPaVEK9Nmxca0YqNFwLfrLq9IfeMWvZcxGCD5aWl0cnkrcotC6O_H4aTv1epDATFQjL9PjG1nOUvKu4qXA=s150" alt="SOMECE"/>
+        </a>
+        <!-- Menú de navegación -->
+        <nav class="navbar">
+          <ul>
+            <li>Inicio</li>
+            <li>Curso</li>
+            <li>Instalaciones</li>
+            <li>Historia</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+        <!-- Contenedor de acciones de usuario -->
+        <div class="actions">
+          <a>Ingresar</a>
+          <button>Registrarse</button>
+        </div>
+      </header>
     <!-- Esto es lo que se verá en el navegador web -->
-    <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgUW6ce5PtPvfurA8MraZ2p0clGo76CtN1C-aAAoBv33cSdZ6yMh3y8ySsW6mJy7-Djvy_5ikfbXD-FuC3GsPWlbPLaRMRtnvj_goEOVp2JlPaVEK9Nmxca0YqNFwLfrLq9IfeMWvZcxGCD5aWl0cnkrcotC6O_H4aTv1epDATFQjL9PjG1nOUvKu4qXA=s150" alt="imagen somece" />
-    <h1>Bienvenidos a Programación Web</h1>
+    <section class="main">
+    <h1>Bienvenidos a Programacion Web</h1>
     <p>Aprendiendo HTML y CSS en SOMECE2023</p>
     <p>
-        Introducción a HTML<strong> 1er. Pagina </strong>
+        Introduccion a HTML<strong> 1er. Pagina </strong>
       </p>
       <p>
         <strong>CSS</strong> impresion.
@@ -22,5 +43,32 @@
           Try it now &rarr;
         </button>
       </form>
+    </section>
+    <section class="promo">
+        <article class="explanatory-video"></article>
+        <video
+          controls
+          poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+        ></video>
+        <img
+      src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png"
+      alt="Mira el Video"
+    />
+        </article>
+        <article class="publish">
+            <h3>Congreso SOMECE2023</h3>
+            <p>
+                Cada año, el Simposio Internacional de SOMECE convoca a especialistas, educadores, pedagogos, autoridades educativas, líderes y responsables de proyectos educativos, científicos de la educación, tomadores de decisiones en el ámbito educativo, padres de familia, estudiantes y a todos los interesados en el uso y aplicación de las Tecnologías de la Información y la Comunicación en la Educación. El Simposio es por tanto, un espacio para interactuar, compartir y aportar conocimiento en el campo de la Informática educativa, en favor de la transformación educativa nacional.
+            </p>
+            <form>
+              <p>Suscribete:</p>
+              <div>
+                <input type="text" placeholder="Enter email" />
+                <button>Registrar</button>
+              </div>
+            </form>
+          </article>
+      </section>
   </body>
 </html>
